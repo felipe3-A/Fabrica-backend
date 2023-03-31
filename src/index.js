@@ -1,15 +1,15 @@
-import express from 'express'
+import app from './app.js'
 
-// import { PORT } from './config.js'
-// import cors from'cors'
 
-const app = express()
+import { PORT } from './config.js'
 
-// app.listen(PORT)
+import cors from'cors'
 
-app.listen(3000)
-console.log('listening on port 4000')
 
-// app.use(cors())
+
+app.listen(PORT)
+console.log('listening on port 3000')
+
+app.use(cors())
 
 

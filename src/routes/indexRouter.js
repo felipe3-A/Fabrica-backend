@@ -2,12 +2,12 @@
 // se importa el modulo Router del paquete de express
 import { Router} from 'express'
 
-import { indexRoute } from '../controllers/indexController.js'
+import { indexRouter } from '../controller/indexController.js'
 
 const router = Router()
 
 // Crear Ruta para prueba de DB de forma asincrona 
-router.get('/prueba', indexRoute)
+router.get('/prueba', indexRouter)
 
 // Agregar este codigo a cada uta del BAckend
 router.use(function(req, res, next) {

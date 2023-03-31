@@ -1,0 +1,1 @@
+Ya funciona todo aunque cors y demas no tiene funcion creo
